@@ -19,7 +19,7 @@ def get_db_connection():
     )
 
 # Route to render the form
-@app.route('/')
+@app.route('/poll_form')
 def index():
     return render_template('poll_form.html')  # ensure this points to your HTML file
 
